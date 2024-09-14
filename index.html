@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color:brown;background-color: coral;
+        }
+        dt{
+            color:red;font-size: 22px;
+        }
+        p{
+            color:green; 
+        }
+        
+        
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: azure;">
+    <center><h1 style="color:darkmagenta;background-color: gold;">CASCADING STYLE SHEETS</h1></center>
+    <h1>CSS</h1>
+    <p class="el1">CSS stands for Cascading style sheets.The version we use for css is version-3.Cascading Style Sheets, is a style sheet language used to describe the visual presentation of a document written in HTML. CSS describes how elements should be rendered on screen.   It enables web designers to control the layout, colors, fonts, and other visual aspects of multiple web pages all at once. 
+        In Cascading Style Sheets (CSS), cascading is the logic that browsers use to determine which CSS rulesets are most important when they conflict with each other. The cascade is central to CSS and is used to solve conflicts when multiple CSS rules apply to an HTML element. 
+        </p><br>
+    <p>SYNTAX:   propertyname:value</p>
+    <br><br>
+    <h1>How to insert CSS:</h1>
+    <d1>
+        <dt>Inline Styling:</dt>
+        <dd><p class="el1">In inline styling CSS styles directly apply to the individual HTML elements using the style attribute.</p><br>
+            <p>SYNTAX:  &lt;tag style = " "&gt;&lt;/tag&gt;</p>
+         </dd>
+    </d1>
+    <br>
+    <d2>
+        <dt>Internal Styling:</dt>
+        <dd><p class="el1">Internal styling in CSS refers to the method of embedding CSS rules directly within the HTML document using the &lt;style&gt; tag.
+</p><br>
+            <p>SYNTAX:  &lt;style&gt;
+            /* Internal CSS starts here */
+        &lt;style&gt;</p></dd>
+    </d2>
+    <br>
+    <d3>
+        <dt>External Styling:</dt>
+        <dd><p class="el1">External CSS is used to style multiple HTML pages with a single style sheet. External CSS contains a separate CSS file with a .css extension.
+        </p><br>
+            <p>SYNTAX:  &lt;link rel="stylesheet" href=mystyle.css&gt;</p>
+
+        </dd>
+    </d3><br><br>
+    <h1>Simple Selectors:</h1>
+    <d1>
+        <dt>Tag:</dt>
+        <dd>
+            <p>SYNTAX:  p {
+
+            border: 5px  blue;
+          
+            margin: 15px;
+          
+          }</p></dd>
+    </d1><br>
+    <d2>
+        <dt>Class:</dt>
+        <dd><p>SYNTAX:  .class {
+
+            css declarations;
+          
+          }</p>
+          
+          </dd>
+          <br>
+    </d2>
+    <d3>
+        <dt>Id:</dt>
+        <dd><p>SYNTAX:  #change1 {
+
+            text-align: center;
+          
+            color: orange;
+          
+          }</p></dd>
+          <br>
+    </d3>
+    <d4>
+        <dt>Group:</dt>
+        <dd><p class="el1">	Grouping selectors in CSS allow you to apply the same styles to multiple selectors.</p><br><br>
+            <p> SYNTAX:  h1,h2,p {  
+            text-align: center;  
+            color: blue;  
+        } </p> </dd>
+        
+    </d4><br>
+    <d5>
+        <dt>Universal:</dt>
+        <dd> <p>SYNTAX:* {  
+            color: green;  
+            font-size: 20px;  
+         }  </p> </dd>
+    </d5>
+</body>
+</html>
